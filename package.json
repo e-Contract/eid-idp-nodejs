@@ -3,10 +3,10 @@
         "start": "node server.js"
     },
     "dependencies": {
-        "express": "4.13.3",
-        "express-session": "1.11.3",
-        "body-parser": "1.14.1",
-        "passport": "0.3.0",
-        "passport-saml": "0.13.0"
+        "express": "4.16.2",
+        "express-session": "1.15.6",
+        "body-parser": "1.18.2",
+        "passport": "0.4.0",
+        "passport-saml": "0.31.0"
     }
 }
