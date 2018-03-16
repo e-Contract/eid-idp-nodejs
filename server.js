@@ -27,7 +27,8 @@ passport.use(new SamlStrategy(
         {
             path: "/login/callback",
             entryPoint: "https://www.e-contract.be/eid-idp/protocol/saml2/post/auth",
-            cert: certCallback
+            cert: certCallback,
+            acceptedClockSkewMs: 1000
         },
 function (profile, done) {
     console.log("profile: " + profile);
